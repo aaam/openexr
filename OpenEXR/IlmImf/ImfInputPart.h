@@ -66,14 +66,7 @@ class IMF_EXPORT InputPart
         void                rawPixelData (int firstScanLine,
                                           const char *&pixelData,
                                           int &pixelDataSize);
-
- 
-        void                rawPixelDataToBuffer (int scanLine,
-                                                  char *pixelData,
-                                                  int &pixelDataSize) const;
-
-
-       void                 rawTileData (int &dx, int &dy,
+        void                rawTileData (int &dx, int &dy,
                                          int &lx, int &ly,
                                          const char *&pixelData,
                                          int &pixelDataSize);
